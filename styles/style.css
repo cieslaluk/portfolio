@@ -251,10 +251,6 @@ figure.projects_image {
     font-weight: 400;
   }
   
-  figure.projects_image4 h2 span {
-    font-weight: 800;
-  }
-  
   figure.projects_image:before {
     height: 100%;
     width: 100%;
