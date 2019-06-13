@@ -16,13 +16,14 @@
 </head>
 
 <body>
-    <nav id="nav">
-        <ul class="topnav" id="myTopnav">
-            <li><a href="#about" id="about_me">O mnie</a></li>
-            <li><a href="#projects" id="projekty">Projekty</a></li>
-            <li><a href="#skills" id="skill">Technologie</a></li>
-            <li><a href="#contact" id="contact_me">Kontakt</a></li>
-            <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
+  
+    <nav class="navigation">
+        <div class="toggle"><i class="fas fa-bars menu"></i></div>
+        <ul>
+            <li><a href="#about">O mnie</a></li>
+            <li><a href="#projects">Projekty</a></li>
+            <li><a href="#skills">Technologie</a></li>
+            <li><a href="#contact_me">Kontakt</a></li>
         </ul>
     </nav>
 
@@ -137,8 +138,13 @@
     </section>
 
 
-<section class="contact">
+<section class="contact" id="contact_me">
     <h2 class="section_text_white">.kontakt</h2>
+    <div class="contact-section">
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+            <a href=""><i class="fab fa-github"></i></a>
+            <a href=""><i class="fas fa-envelope"></i></a>
+    </div>
 </section>
 
 

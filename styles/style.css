@@ -16,86 +16,47 @@ h6 {
     margin: 0;
 }
 
-
-nav {
-    height: 100px;
-    position: absolute;
-    width: 100%;
-    z-index: 999;
-    font-weight: 300;
-    transition: top 0.3s;
+.navigation {
+  border: 1px;
+  border-bottom-color: #fff;
+  border-style: solid;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: #000;
 }
 
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    padding: 0 3%;
-    margin: 0;
+ul {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
 }
 
-nav ul li {
-    margin: 0 1em 0 1em;
-    padding: 1em 0 1em;
+ul li{
+ list-style: none;
+ display: inline-block;
+ padding: 20px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    transition: color 0.2s, background-color 0.2s, padding 0.2s ease-in;
-    font-size: 1.1em;
-    text-shadow: 1px 1px 2px rgb(42, 42, 42);
+ul li:hover{
+  background-color: #e91e63;
 }
 
-nav ul li a:hover,
-nav ul li a:focus,
-nav ul li a:active {
-    color: #ffffff;
-    text-decoration: none;
+ul li a{
+  color: #fff;
+  text-decoration: none;
 }
 
-nav ul li a::after {
-    content: '';
-    display: block;
-    bottom: 3px;
-    left: 0;
-    height: 2px;
-    width: 100%;
-    background-color: #4e1b22;
-    transform-origin: bottom;
-    transform: scale(0, 1);
-    transition: color 0.1s, transform 0.2s ease-out;
-    -webkit-box-shadow: 0px 0px 39px -6px rgba(255, 255, 255, 0.75);
-    -moz-box-shadow: 0px 0px 39px -6px rgba(255, 255, 255, 0.75);
-    box-shadow: 0px 0px 39px -6px rgba(255, 255, 255, 0.75);
-}
-
-nav ul li a:active::after {
-    background-color: #4e1b22;
-}
-
-nav ul li a:hover::after,
-a:focus::after {
-    transform-origin: bottom;
-    transform: scale(1, 1);
-}
-
-nav ul li:last-child {
-    display: none;
-}
-
-nav .topnav .icon {
-    font-size: 25px;
-}
-
-nav.scrolling {
-    box-shadow: 0px 1px 5px white;
-    background-color: #000;
-    height: 60px;
-    position: fixed;
-    transition: all .6s;
-    z-index: 9999;
+.toggle{
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 20px;
+  background:#000;
+  text-align: right;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 30px;
+  display: none;
 }
 
 
@@ -227,7 +188,7 @@ figure.projects_image {
     position: relative;
     float: left;
     overflow: hidden;
-    margin: 10px 1%;
+    margin: 10px 2%;
     min-width: 220px;
     max-width: 310px;
     max-height: 220px;
