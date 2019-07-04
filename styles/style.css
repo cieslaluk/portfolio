@@ -183,12 +183,18 @@ h2.about_me_right_text{
 }
 
 
+.wrapper{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 figure.projects_image {
     font-family: 'Raleway', Arial, sans-serif;
     position: relative;
     float: left;
     overflow: hidden;
-    margin: 10px 2%;
+    margin: 10px 1%;
     min-width: 220px;
     max-width: 310px;
     max-height: 220px;
