@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .toggle {
         display: block;
     }
@@ -12,6 +12,7 @@
         display: block;
         text-align: center;
     }
+
     .active {
         display: block;
 
