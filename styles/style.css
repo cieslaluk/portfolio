@@ -395,5 +395,8 @@ figure.projects_image.hover:before {
 .contact-section {
   display: flex;
   justify-content: center;
+}
 
+.icon {
+  padding: 1%;
 }
