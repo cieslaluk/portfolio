@@ -400,3 +400,12 @@ figure.projects_image.hover:before {
 .icon {
   padding: 1%;
 }
+
+footer {
+  height: 25px;
+  margin: 0;
+  display: flex;
+  background-color: #0a1013;
+  justify-content: center;
+  color: #fff;
+}
