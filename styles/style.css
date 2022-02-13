@@ -384,3 +384,16 @@ figure.projects_image.hover:before {
 .contact {
   background-color: #4e1b22;
 }
+
+.fab,
+.fas {
+  color: #fff;
+  padding: 20%;
+  margin: 2%;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+
+}
